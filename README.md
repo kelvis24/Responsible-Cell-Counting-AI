@@ -32,10 +32,13 @@ Follow the order of the Jupyter notebook cells, executing each one sequentially.
 - **Augmentation Step**: When running the augmentation cell, a new folder named `new_augmented_images` will be created. Do not rerun the augmentation cell multiple times, as this folder will not be automatically deleted, and it will lead to duplication.
 
 ## Repository Structure
-- `augmentation.py`: Contains the augmentation function that applies various transformations to the images.
-- `undersampling.py`: Script for the undersampling algorithm to balance the dataset.
-- `model_training.ipynb`: Jupyter notebook with cells to run the experiments.
-- `data`: Folder containing the dataset and any additional files needed for running the experiments.
+The repository contains several Jupyter notebooks, each corresponding to different configurations of the deep learning models used:
+
+- `571XProject_BaseLine_Vgg16.ipynb`: Baseline model using VGG16 without any data augmentation or undersampling.
+- `571XProject_VGG16.ipynb`: VGG16 model with full preprocessing, including data augmentation and undersampling.
+- `571XProject_VGG16_no_augmentation.ipynb`: VGG16 model trained without data augmentation.
+- `571XProject_VGG16_no_undersampling.ipynb`: VGG16 model trained without undersampling.
+- `571XProject_ResNet (1).ipynb`: Implementation using the ResNet50 model with data preprocessing.
 
 ## Models and Training
 We use the following models for our experiments:
