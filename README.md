@@ -57,6 +57,6 @@ This project is partially supported by NSF Award No. 2152117. Special thanks to 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE-file-link) file for details.
 
 ## Contact
-- Amal Alshammary - email@example.com
-- Geng Ding - email@example.com
-- Elvis Kimara - email@example.com
+- Amal Alshammary - amalha@iastate.edu
+- Geng Ding - gengding@iastate.edu
+- Elvis Kimara - ekimara@iastate.edu
