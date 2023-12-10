@@ -8,9 +8,9 @@
 ## Introduction
 This repository contains the implementation of a machine learning approach to automate cell counting in medical images. Our project utilizes the IDCIA v2 dataset to train AI models using VGG16 and ResNet50 architectures. We address challenges such as dataset imbalance, limited data size, and image quality variability by applying data augmentation and transfer learning techniques. The goal is to create an efficient and accurate cell-counting AI model.
 
-For an in-depth understanding of our approach, please refer to the project's [paper](link-to-paper).
+For an in-depth understanding of our approach, please refer to the project's [paper](https://github.com/kelvis24/Responsible-Cell-Counting-AI/blob/main/Final%20paper.pdf).
 
-![Experimental Design](link-to-figure1)
+![Experimental Design](https://github.com/kelvis24/Responsible-Cell-Counting-AI/blob/main/Screenshot%202023-12-09%20at%209.52.17%20PM.png)
 
 _Figure 1: Overview of the experimental design_
 
